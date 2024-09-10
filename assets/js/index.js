@@ -14,7 +14,7 @@ const startVideo = () => {
                 if (device.kind === 'videoinput') {
 
                     // verifica se o dispositivo é a câmera do monitor
-                    if (device.label.includes('DELL Monitor RGB Webcam (0bda:58fc)')) {
+                    if (device.label.includes('')) {
                         navigator.getUserMedia({
 
                             // configura o dispositivo de vídeo
@@ -39,7 +39,7 @@ const startVideo = () => {
 }
 
 const loadLabels = async () => {
-    const labels = ['Livia Belão', 'Isabela Souza', 'Rafael Cumpri', 'Thiago Ferreira']
+    const labels = ['Livia Belão', 'Isabela Souza', 'Rafael Cumpri', 'Thiago Ferreira', 'Ellen De Fatima Custodio Cumpri', 'Eredio Cumpri Junior']
     const labeledDescriptors = []
     for (const label of labels) {
         const descriptions = []
